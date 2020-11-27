@@ -5,6 +5,7 @@ import _ from 'lodash';
 import '../sass/main.scss';
 import Header from './Header';
 import Footer from './Footer';
+import MarketoChatBot from './chatbot/marketoChatbot'
 
 export default class Body extends React.Component {
     render() {
@@ -21,6 +22,7 @@ export default class Body extends React.Component {
                   <main id="content" className="site-content">
                     {this.props.children}
                   </main>
+                  <MarketoChatBot {...this.props} />
                   <Footer {...this.props} />
                 </div>
             </React.Fragment>
