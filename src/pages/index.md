@@ -5,9 +5,6 @@ sections:
     title: Marketo marketing site
     subtitle: Events in Marketo
     actions:
-      - label: Learn More
-        url: /features
-        style: primary
       - label: Contact Us
         url: /contact
         style: secondary
