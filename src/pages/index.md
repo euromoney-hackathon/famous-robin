@@ -4,10 +4,7 @@ sections:
   - type: hero_section
     title: Marketo marketing site
     subtitle: Events in Marketo
-    actions:
-      - label: Contact Us
-        url: /contact
-        style: secondary
+    actions: []
     align: left
     image_position: right
     has_background: true
